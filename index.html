@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aleksei Escobar Ramírez - Portafolio Senior</title>
+     <script src="https://cdn.tailwindcss.com"></script>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* Configuración de la fuente Inter y scroll suave */
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Estilos de scrollbar y contenedor principal para un look clean */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #4B5563;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+    <!-- BARRA DE NAVEGACIÓN FIJA (Sticky Nav) -->
+    <header id="navbar" class="sticky top-0 z-50 bg-gray-900 shadow-xl">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-center space-x-6 md:space-x-12">
+            <a href="#inicio" class="text-white hover:text-blue-400 transition duration-300 font-medium">Inicio</a>
+            <a href="#experiencia" class="text-white hover:text-blue-400 transition duration-300 font-medium">Experiencia</a>
+            <a href="#proyectos-git" class="text-white hover:text-blue-400 transition duration-300 font-medium">Proyectos GIT</a>
+            <a href="#contacto" class="text-white hover:text-blue-400 transition duration-300 font-medium">Contacto</a>
+        </nav>
+    </header>
+
+    <!-- SECCIÓN DE INICIO (HERO) -->
+    <section id="inicio" class="bg-gray-900 text-white min-h-[90vh] flex items-center justify-center py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center gap-12">
+            
+            <!-- Contenido Principal --><div class="md:w-3/5 text-center md:text-left">
+                <p class="text-xl text-blue-400 mb-2">¡Hola, soy</p>
+                <h1 class="text-5xl md:text-7xl font-extrabold mb-4 leading-tight">Aleksei Escobar Ramírez</h1>
+                <h2 class="text-3xl md:text-4xl text-gray-300 mb-6 font-light">Ingeniero de Software Senior</h2>
+                <p class="text-lg text-gray-400 max-w-xl mx-auto md:mx-0">
+                    Ingeniero en Sistemas de Información con Maestría en Gerencia de Sistemas y especialización en Análisis y Desarrollo de Sistemas. Actualmente me desempeño como Ingeniero de Software Senior, con mas de 10 años de experiencia en desarrollo Full Stack de Sistemas distribuidos, microservicios y plataformas escalables. Especializado en Java, Spring Boot, Oracle Application Express, y diversos sistemas de bases de datos, incluyendo Oracle, MySQL y PostgreSQL.
+                </p>
+                
+                <div class="mt-8 flex justify-center md:justify-start space-x-4">
+                    <a href="#contacto" class="px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg shadow-lg transition duration-300 transform hover:scale-105">
+                        <i class="fas fa-paper-plane mr-2"></i>Contáctame
+                    </a>
+                    <a href="https://drive.google.com/file/d/1jqTDYTtsjJYZSH_wisWB-Ybuyeyh5PUh/view" target="_blank" class="px-6 py-3 border border-blue-600 text-blue-400 hover:bg-blue-600 hover:text-white font-semibold rounded-lg transition duration-300 transform hover:scale-105">
+                        <i class="fas fa-file-pdf mr-2"></i>Descargar CV
+                    </a>
+                </div>
+            </div>
+
+            <!-- Imagen de Perfil --><div class="md:w-2/5 flex justify-center mt-10 md:mt-0">
+                <div class="w-64 h-64 bg-gray-700 rounded-full flex items-center justify-center border-4 border-blue-400 shadow-2xl overflow-hidden">
+                    <!-- 
+                        IMPORTANTE: fotografia de imagen
+                    -->
+                    <img src="https://i.imgur.com/2XBUh2N.jpeg" alt="Aleksei Escobar Ramírez" class="object-cover w-full h-full">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN DE EXPERIENCIA LABORAL --><section id="experiencia" class="py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-4xl font-bold text-center mb-16 text-gray-900 border-b-4 border-blue-600 pb-2 inline-block mx-auto"><i class="fas fa-briefcase mr-3 text-blue-600"></i>Experiencia Laboral</h2>
+        
+        <!-- ITEM DE EXPERIENCIA 1 (Empresa Actual: Seguros GYT) --><div class="relative mb-16 pl-10 md:pl-20 border-l-4 border-blue-300">
+            <!-- Icono de timeline --><div class="absolute left-[-16px] md:left-[-32px] top-0 w-8 h-8 md:w-16 md:h-16 bg-blue-600 rounded-full flex items-center justify-center text-white text-xl shadow-lg">
+                <i class="fas fa-building"></i>
+            </div>
+
+            <div class="bg-white p-6 md:p-8 rounded-xl shadow-lg hover:shadow-xl transition duration-300">
+                <h3 class="text-3xl font-semibold text-gray-900 mb-1">Ingeniero de Software Senior (Full-time)</h3>
+                <p class="text-xl font-medium text-blue-600 mb-2">Seguros GYT</p>
+                <p class="text-sm text-gray-500 mb-4">Diciembre 2022 - Actualidad (3+ años) | Guatemala (Modelo Híbrido)</p>
+
+                <p class="text-gray-700 mb-6">Liderazgo técnico en el desarrollo Backend de aplicaciones críticas para el negocio de seguros, garantizando la escalabilidad y la integración con sistemas complejos. Mi rol incluye:
+                    <ul class="list-disc list-inside mt-2 ml-4 text-base text-gray-600 space-y-1">
+                        <li>Diseño y desarrollo de sistemas backend robustos y escalables con Java y Spring Boot.</li>
+                        <li>Contenerización de aplicaciones utilizando Docker para su despliegue en distintos ambientes de AWS.</li>
+                        <li>Control de versiones y migración de bases de datos utilizando Liquibase.</li>
+                        <li>Integración de aplicaciones con servicios externos y APIs de terceros</li>
+                        <li>Revisión de código (Code Review) a desarrolladores Middle y Junior.</li>
+                        <li>Uso de multiples bases de datos: MySQL, MariaDB, PostgreSQL, y Oracle.</li>
+                    </ul>
+                </p>
+
+                <!-- SUBSECCIÓN DE PROYECTOS EN ESTE TRABAJO --><div class="mt-8 pt-4 border-t border-gray-200">
+                    <h4 class="text-2xl font-semibold mb-4 text-gray-800">Proyecto Clave Destacado:</h4>
+                    
+                    <!-- Proyecto Microkernel - TEXTO ACTUALIZADO AQUÍ --><div class="project-detail bg-blue-50 p-4 rounded-lg mb-4 border-l-4 border-blue-600">
+                        <p class="project-title text-xl font-bold mb-1 flex items-center"><i class="fas fa-cubes mr-2 text-blue-600"></i> Integración Cotizador Flotillas (Arquitectura Microkernel)</p>
+                        <p class="project-summary text-gray-700">Implementé la integración del cotizador de seguros de flotillas de auto a un Sistema Analizador de Fraudes y a un Analizador de Récord Financiero a través de una Arquitectura de Microkernel (Plugins).</p>
+                        <ul class="list-disc list-inside mt-2 ml-4 text-sm text-gray-600 space-y-1">
+                            <li>Integración con el sistema de terceros para el análisis y detección de riesgos de fraude en tiempo real.</li>
+                            <li>Desarrollo de un módulo para consumir servicios de la SIB, permitiendo la consulta del récord financiero y análisis crediticio del cliente, esencial para la suscripción de pólizas.</li>
+                            <li>Stack: Java, Spring Boot, Microkernel Pattern, REST API Design.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ITEM DE EXPERIENCIA 2 (Empresa Anterior: iUNGO) --><div class="relative mb-16 pl-10 md:pl-20 border-l-4 border-blue-300">
+            <div class="absolute left-[-16px] md:left-[-32px] top-0 w-8 h-8 md:w-16 md:h-16 bg-blue-600 rounded-full flex items-center justify-center text-white text-xl shadow-lg">
+                <i class="fas fa-desktop"></i>
+            </div>
+            <div class="bg-white p-6 md:p-8 rounded-xl shadow-lg hover:shadow-xl transition duration-300">
+                <h3 class="text-3xl font-semibold text-gray-900 mb-1">System Analyst / Developer (Full-time)</h3>
+                <p class="text-xl font-medium text-blue-600 mb-2">iUNGO</p>
+                <p class="text-sm text-gray-500 mb-4">Agosto 2016 - Diciembre 2022 (6 años 5 meses) | Guatemala</p>
+                
+                <p class="text-gray-700 mb-6">Proyectos clave y responsabilidades:
+                    <ul class="list-disc list-inside mt-2 ml-4 text-base text-gray-600 space-y-2">
+                        <li>Desarrollo e integración de una solución de Big Data para extraer información operativa de los restaurantes McDonald's hacia la nube de Google.</li>
+                        <li>Diseño y construcción de Dashboards para reportería y análisis de datos con DataStudio, utilizando la información en Google BigQuery y Cloud Functions (Python, Pandas).</li>
+                        <li>Migración exitosa de todas las aplicaciones de backoffice (ventas, inventario, pedidos) desde Oracle Forms y Reports hacia aplicaciones web desarrolladas en Oracle APEX.</li>
+                        <li>Continuidad en el desarrollo de servicios web (Spring Boot) y aplicaciones web en Java, complementado con habilidades frontend en HTML, CSS, JavaScript y jQuery.</li>
+                        <li>Mantenimiento y desarrollo de aplicaciones backoffice en Oracle APEX y PL/SQL.</li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+
+        <!-- ITEM DE EXPERIENCIA 3 (Superintendencia de Administración Tributaria - SAT) --><div class="relative mb-16 pl-10 md:pl-20 border-l-4 border-blue-300">
+            <div class="absolute left-[-16px] md:left-[-32px] top-0 w-8 h-8 md:w-16 md:h-16 bg-blue-600 rounded-full flex items-center justify-center text-white text-xl shadow-lg">
+                <i class="fas fa-stamp"></i>
+            </div>
+            <div class="bg-white p-6 md:p-8 rounded-xl shadow-lg hover:shadow-xl transition duration-300">
+                <h3 class="text-3xl font-semibold text-gray-900 mb-1">Analista de Sistemas y Desarrollador (Progresión de Junior a Senior)</h3>
+                <p class="text-xl font-medium text-blue-600 mb-2">Superintendencia de Administración Tributaria (SAT)</p>
+                <p class="text-sm text-gray-500 mb-4">Enero 2013 - Agosto 2016 (3 años 8 meses) | Guatemala</p>
+                
+                <p class="text-gray-700 mb-6">Trayectoria de crecimiento profesional que inició en el desarrollo Java y culminó con responsabilidades de análisis y arquitectura de sistemas críticos.
+                    <ul class="list-disc list-inside mt-2 ml-4 text-base text-gray-600 space-y-2">
+                        <li>**Programador Jr. Java (Ene 2013 - Dic 2013):** Inicio en el desarrollo y mantenimiento de aplicaciones web utilizando Java, Oracle y el framework Spring/Hibernate.</li>
+                        <li>**Senior Java Developer (Ene 2014 - Mar 2015):** Asumí el rol de desarrollador Senior, centrado en el desarrollo y mantenimiento de aplicaciones web empresariales. Stack ampliado para incluir tecnologías frontend Java EE como RichFaces y PrimeFaces.</li>
+                        <li>**System Analyst / Developer (Mar 2015 - Ago 2016):** Foco en el análisis de requerimientos, diseño de soluciones y desarrollo de aplicaciones web críticas en Java y PL/SQL. Experiencia profunda en la optimización y manejo de la Base de Datos Oracle.</li>
+                        <li>**Tecnologías Clave:** Java (JSP, Servlets), Frameworks (Spring, Hibernate), Bases de Datos (Oracle, PL/SQL), Interfaces de Usuario (RichFaces, PrimeFaces).</li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+        
+
+    </section>
+
+    <!-- SECCIÓN DE PROYECTOS GIT / OPEN SOURCE --><section id="proyectos-git" class="py-20 bg-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-bold text-center mb-16 text-gray-900 border-b-4 border-blue-600 pb-2 inline-block mx-auto"><i class="fab fa-github mr-3 text-blue-600"></i>Proyectos Personales / GIT</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- CARD DE PROYECTO 1: Calculadora --><div class="bg-white p-8 rounded-xl shadow-md border-t-4 border-blue-600 hover:shadow-xl transition duration-300">
+                    <h3 class="text-2xl font-semibold mb-3 flex items-center text-blue-800">
+                        <i class="fas fa-calculator mr-3 text-blue-600"></i> Calculadora API (Spring Boot & Docker)
+                    </h3>
+                    <p class="text-gray-700 mb-4 text-base">
+                        Aplicación Spring Boot que implementa una API REST para sumar y calcular porcentajes, persistiendo los resultados en PostgreSQL. Demuestra habilidades en desarrollo backend, orquestación con Docker y manejo de persistencia.
+                    </p>
+                    <div class="bg-blue-50 p-4 rounded-lg border border-blue-200 mb-4">
+                        <p class="text-sm font-medium text-gray-800 mb-1">
+                            <i class="fas fa-trophy mr-2 text-yellow-600"></i> Contexto: Proyecto con el que gané el examen de aptitutes al puesto Desarraldor Senior en challenging-tektonlabs.
+                        </p>
+                        <p class="text-sm font-medium text-gray-800">
+                            <i class="fas fa-code-branch mr-2 text-blue-600"></i> Stack Principal: Java, Spring Boot, PostgreSQL, Docker.
+                        </p>
+                    </div>
+                    
+                    <a href="https://github.com/BPFAleksei/challeng-tektonlabs" target="_blank" class="text-blue-600 hover:text-blue-800 font-bold text-base inline-flex items-center mt-3">
+                        <i class="fab fa-github mr-2"></i> Ver Repositorio en GitHub
+                    </a>
+                </div>
+
+                <!-- CARD DE PROYECTO 2: Microservicios K8S --><div class="bg-white p-8 rounded-xl shadow-md border-t-4 border-blue-600 hover:shadow-xl transition duration-300">
+                    <h3 class="text-2xl font-semibold mb-3 flex items-center text-blue-800">
+                        <i class="fas fa-server mr-3 text-blue-600"></i> Microservicios y Orquestación Cloud
+                    </h3>
+                    <p class="text-gray-700 mb-4 text-base">
+                        Implementación de una arquitectura de microservicios robusta con descubrimiento de servicios (Eureka) y balanceo de carga, asegurada con JWT y lista para despliegue en entornos Cloud de AWS.
+                    </p>
+                    <div class="bg-blue-50 p-4 rounded-lg border border-blue-200 mb-4">
+                        <p class="text-sm font-medium text-gray-800 mb-1">
+                            <i class="fas fa-cloud-upload-alt mr-2 text-green-600"></i> Enfoque: Despliegue en entornos productivos escalables (AWS EKS/ECS).
+                        </p>
+                        <p class="text-sm font-medium text-gray-800">
+                            <i class="fas fa-code-branch mr-2 text-blue-600"></i> Stack Principal: Spring Boot/Cloud, Docker, Kubernetes, LoadBalancer, Security JWT, AWS.
+                        </p>
+                    </div>
+                    
+                    <a href="https://github.com/BPFAleksei/SpringCloudKubernetes" target="_blank" class="text-blue-600 hover:text-blue-800 font-bold text-base inline-flex items-center mt-3">
+                        <i class="fab fa-github mr-2"></i> Ver Repositorio en GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- SECCIÓN DE CONTACTO --><footer id="contacto" class="bg-gray-900 text-white py-20">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-4xl font-bold mb-4 text-blue-400"><i class="fas fa-handshake mr-3"></i>Conectemos</h2>
+            <p class="text-xl mb-10 text-gray-300">Si buscas experiencia en arquitecturas escalables y soluciones de ingeniería sólidas, hablemos de tu próximo desafío.</p>
+            
+            <div class="flex flex-wrap justify-center gap-6 text-xl">
+                
+                <a href="mailto:aleksei2006@gmail.com" class="hover:text-blue-400 transition duration-300 flex items-center">
+                    <i class="fas fa-envelope mr-2 text-blue-600"></i> aleksei2006@gmail.com
+                </a>
+                
+                <a href="https://www.linkedin.com/in/aleksei-escobar/" target="_blank" class="hover:text-blue-400 transition duration-300 flex items-center">
+                    <i class="fab fa-linkedin mr-2 text-blue-600"></i> LinkedIn/aleksei-escobar
+                </a>
+                
+                <a href="https://github.com/BPFAleksei" target="_blank" class="hover:text-blue-400 transition duration-300 flex items-center">
+                    <i class="fab fa-github mr-2 text-blue-600"></i> GitHub/BPFAleksei
+                </a>
+            </div>
+            
+            <p class="mt-16 text-gray-500 text-sm">&copy; 2025 Aleksei Escobar Ramírez. Desarrollado con ☕, Java y Tailwind CSS.</p>
+        </div>
+    </footer>
+    
+    <!-- SCRIPT DE NAVEGACIÓN FIX (SOLUCIÓN DE OFFSET PARA NAVBAR) --><script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const navbar = document.getElementById('navbar');
+            // Obtener la altura de la barra de navegación para el offset
+            // El + 10 es un pequeño margen extra para mejor visualización
+            const navbarHeight = navbar.offsetHeight + 10; 
+
+            // Selecciona todos los enlaces que apuntan a una sección interna (#)
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    // Previene el comportamiento de navegación por defecto del enlace
+                    e.preventDefault();
+
+                    const targetId = this.getAttribute('href').substring(1);
+                    const targetElement = document.getElementById(targetId);
+
+                    if (targetElement) {
+                        // 1. Calcula la posición Y del elemento en el documento
+                        const targetPosition = targetElement.getBoundingClientRect().top + window.scrollY;
+                        
+                        // 2. Resta la altura del navbar (offset) de la posición objetivo
+                        const offsetPosition = targetPosition - navbarHeight;
+
+                        // 3. Realiza el scroll a la posición ajustada
+                        window.scrollTo({
+                            top: offsetPosition,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
